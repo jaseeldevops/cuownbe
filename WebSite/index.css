@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  background-color: var(--cobLi);
+  font-family: Montserrat;
+}
+
+:root {
+  --cobDr: #185759;
+  --cobNr: #559092;
+  --cobLi: #c8e3df;
+}
+
+.inA {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inAa {
+  width: 150px;
+  height: 50px;
+  padding: 0 3%;
+  background-image: url(./assets/Cuownbe.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.inB {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(./assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.inBa {
+  font-size: 40px;
+  font-weight: 500;
+}
+.inBb {
+  font-size: 20px;
+  padding: 10px;
+}
+.inBc {
+  padding: 6px 15px;
+  background-color: var(--cobNr);
+  margin-top: 10px;
+  cursor: pointer;
+}
+.inC {
+}
+.inD {
+}
+.inE {
+}
